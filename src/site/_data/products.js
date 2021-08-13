@@ -13,7 +13,7 @@ module.exports = async () => {
             title
             productType
             totalInventory
-            variants(first: 5) {
+            variants(first: 10) {
               edges {
                 node {
                   id
@@ -36,7 +36,7 @@ module.exports = async () => {
                 currencyCode
               }
             }
-            images(first: 1) {
+            images(first: 8) {
               edges {
                 node {
                   src
